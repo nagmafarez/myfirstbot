@@ -43,3 +43,7 @@ user_input = st.text_input("You:", placeholder="Type your question here...")
 if user_input:
     st.chat_message("user", user_input)
     generate_text(user_input)
+
+if user_input:
+    st.chat_message("user", user_input)
+    generate_text(user_input)
